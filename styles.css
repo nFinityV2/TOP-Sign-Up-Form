@@ -1,4 +1,78 @@
-:root {
+* {
     font-size: 1rem;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* HERO SECTION */
+.main-container, .logo {
+    display: flex;
+}
+
+.hero {
+    background-image: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    width:40vw;
+    gap: 0.5em;
+}
+
+.logo-img {
+    width: 8vw;
+}
+
+.logo-title {
+    font-family: 'Norse', sans-serif;
+    font-weight: 700;
+    font-size: 7.5rem;
+    text-transform: uppercase;
+}
+
+.attribution, .attribution a {
+    color: white;
+    text-align: right;
+}
+
+.attribution{
+    position: relative;
+    text-align: right;
+    right: 1vw;
+    top: 75vh;
+}
+
+
+/* CONTENT SECTION */
+ .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .header h2, .header span {
+    font-weight: 600;
+    font-size: 1.5rem;
+ }
+
+ .header span {
+    font-style: italic;
+ }

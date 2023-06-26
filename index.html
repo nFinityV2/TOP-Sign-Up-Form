@@ -8,57 +8,43 @@
   </head>
 
   <body>
-    <main>
+    <main class="main-container">
+
       <section class="hero">
-        <img
-          src="assets/halie-west-25xggax4bSA-unsplash.jpg"
-          alt="green-ferns"
-        />
-        <p>
-          Photo by
-          <a
-            href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            >Halie West</a
-          >
-          on
-          <a
-            href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            >Unsplash</a
-          >
+        <div class="logo">
+          <img class="logo-img" src="assets/odin-lined.png" alt="odin-logo">
+          <h1 class="logo-title">Odin</h1>
+        </div>
+        <p class="attribution">
+          Photo by 
+          <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Halie West
+          </a> on 
+          <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Unsplash
+          </a>
         </p>
       </section>
-      
+
       <section class="content">
-        <h1>
-          This is not a real online service! You know you need something like
-          this in you life to help you realize your deepest dreams.
-        </h1>
-        <h2></h2>
+        <div class="header">
+          <h2>This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+          </h2>
+          <h2>You <span>know</span> you want to.</h2>
+        </div>
         <div class="form-container">
-          <form action="" method="post">
-            <h2></h2>
-            <label class="form-lbl" for="">First Name</label>
-            <input class="form-input" type="text" name="fName" />
-
-            <label class="form-lbl" for="">Last Name</label>
-            <input class="form-input" type="text" name="lName" />
-
-            <label class="form-lbl" for="">Email </label>
-            <input class="form-input" type="email" name="email" />
-
-            <label class="form-lbl" for="">Mobile</label>
-            <input class="form-input" type="number" name="mobile" />
-
-            <label class="form-lbl" for="">Password</label>
-            <input class="form-input" type="password" name="password" />
-
-            <label class="form-lbl" for="">Confirm Password</label>
-            <input class="form-input" type="password" name="cPassword" />
+          <form action="#" method="get">
+            <label for="firstName"></label>
+            <input type="text" name="firstName" placeholder="First Name">
           </form>
         </div>
-        <div class="btn-container">
-          <button type="submit"></button>
-          <h3><a></a></h3>
+        <div class="submit">
+          <button type="submit">Create Account</button>
+        </div>
+        <div class="login">
+          <h2>Already have an account?</h2>
+          <a href="#">Log in</a>
         </div>
       </section>
     </main>
