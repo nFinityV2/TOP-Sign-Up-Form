@@ -9,18 +9,22 @@
 
   <body>
     <main class="main-container">
-
       <section class="hero">
         <div class="logo">
-          <img class="logo-img" src="assets/odin-lined.png" alt="odin-logo">
+          <img class="logo-img" src="assets/odin-lined.png" alt="odin-logo" />
           <h1 class="logo-title">Odin</h1>
         </div>
         <p class="attribution">
-          Photo by 
-          <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >
             Halie West
-          </a> on 
-          <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          </a>
+          on
+          <a
+            href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >
             Unsplash
           </a>
         </p>
@@ -28,23 +32,52 @@
 
       <section class="content">
         <div class="header">
-          <h2>This is not a real online service! You know you need something
-              like this in your life to help you realize your deepest dreams.
+          <h2>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <span>now</span> to get started.
           </h2>
+          <br />
           <h2>You <span>know</span> you want to.</h2>
         </div>
+
         <div class="form-container">
+          <h2 class="form-text">Let's do this!</h2>
           <form action="#" method="get">
-            <label for="firstName"></label>
-            <input type="text" name="firstName" placeholder="First Name">
+            <div class="form-inner-container">
+              <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" required/>
+              </div>
+              <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" required/>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" />
+              </div>
+              <div>
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" />
+              </div>
+              <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" />
+              </div>
+              <div>
+                <label for="cPassword">Confirm Password</label>
+                <input type="password" name="cPassword" />
+              </div>
+            </div>
           </form>
         </div>
+
         <div class="submit">
           <button type="submit">Create Account</button>
-        </div>
-        <div class="login">
-          <h2>Already have an account?</h2>
-          <a href="#">Log in</a>
+          <h3 class="login-text">
+            Already have an account? <span><a href="#">Log in</a></span>
+          </h3>
         </div>
       </section>
     </main>
